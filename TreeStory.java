@@ -17,13 +17,13 @@ public class TreeStory {
 
         //__name__ is a __adjective__ __noun__. They are always __adverb__ __verb__.
 
-        String firstName = "Hamza";
-        String _adjective_ = "loves";
-        String _noun_ = "gym";
-        String _adverb_ = "there";
-        String _verb_ = "win";
+        String firstName = console.readLine("Enter your name:  ");
+        String _adjective_ = console.readLine("Enter your name:  ");
+        String _noun_ = console.readLine("Enter your name:  ");
+        String _adverb_ = console.readLine("Enter your name:  ");
+        String _verb_ = console.readLine("Enter your name:  ");
 
-        console.printf("%s is a %s %s. They are always %s %s", firstName, _adjective_, _noun_,_adverb_, _verb_ )
+        console.printf("%s is a %s %s. They are always %s %s", firstName, _adjective_, _noun_,_adverb_, _verb_ );
 
         
     }
