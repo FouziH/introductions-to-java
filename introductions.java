@@ -4,8 +4,9 @@ public class introductions {
     public static void main(String args[]){
         Console console = System.console();
         //Welcome to the Introductions program! Your code goes below here
-        String firstName = console.readLine("What is your name? ");
-        console.printf("Hello, my name is %s\n", firstName);
-        console.printf("%s is learning how to write Java", firstName);
+        String firstName = console.readLine("What is your first name? ");
+        String lastNAme =console.readLine("What is your last name? ");
+        console.printf("First name: %s", firstName);
+        console.printf("Last name: $s", lastNAme);
     }
 }
