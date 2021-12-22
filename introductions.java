@@ -1,7 +1,7 @@
 import java.io.Console;
 
 public class introductions {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Console console = System.console();
         //Welcome to the Introductions program! Your code goes below here
         String firstName = console.readLine("What is your first name? ");
