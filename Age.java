@@ -11,6 +11,14 @@ public class Age {
              System.exit(0);
          }
 
+         int numberOfPeople = 3;
+
+         if(numberOfPeople < 4) {
+             console.printf("Your table is ready.");
+             //exist the system after you run this code
+             System.exit(0);
+         }
+
     }
     
 }
