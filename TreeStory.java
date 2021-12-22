@@ -9,11 +9,11 @@ public class TreeStory {
             Enter your amazing code here!
         */
 
-        String name = console.readLine("Enter your name:  ");
-        String adjective = console.readLine("Enter and adjective:  ");
+        // String name = console.readLine("Enter your name:  ");
+        // String adjective = console.readLine("Enter and adjective:  ");
 
         //Printing two variable on the console
-        console.printf("%s is very %s\n", name, adjective);
+        // console.printf("%s is very %s\n", name, adjective);
 
         //__name__ is a __adjective__ __noun__. They are always __adverb__ __verb__.
 
