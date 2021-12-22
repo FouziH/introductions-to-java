@@ -13,8 +13,17 @@ public class TreeStory {
         String adjective = console.readLine("Enter and adjective:  ");
 
         //Printing two variable on the console
-
         console.printf("%s is very %s\n", name, adjective);
+
+        //__name__ is a __adjective__ __noun__. They are always __adverb__ __verb__.
+
+        String firstName = "Hamza";
+        String _adjective_ = "loves";
+        String _noun_ = "gym";
+        String _adverb_ = "there";
+        String _verb_ = "win";
+
+        console.printf("%s is a %s %s. They are always %s %s", firstName, _adjective_, _noun_,_adverb_, _verb_ )
 
         
     }
