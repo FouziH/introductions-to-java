@@ -3,8 +3,9 @@ public class Age {
     public static void main(String[] args) {
          Console console = System.console();
          //declare age using int variable
+        String ageAsString = console.readLine("Enter your age:  ");
 
-         int age = 12;
+         int age = Integer.parseInt(ageAsString);
          if(age < 13) {
              //insert our exit code
              console.printf("You must be at least 13 years of age to use this program");
