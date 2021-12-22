@@ -7,6 +7,6 @@ public class introductions {
         String firstName = console.readLine("What is your first name? ");
         String lastName =console.readLine("What is your last name? ");
         console.printf("First name: %s\n", firstName);
-        console.printf("Last name: %s", lastName);
+        console.printf("Last name: %s\n", lastName);
     }
 }
