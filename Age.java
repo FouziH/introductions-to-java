@@ -22,7 +22,7 @@ public class Age {
 
 
          String noun = console.readLine("Enter a noun:  ");
-         if(noun.equals("dork")) {
+         if(noun.equalsIgnoreCase("dork")) {
              console.printf("That language is not allowed. Exiting. \n\n");
              System.exit(0);
          }
