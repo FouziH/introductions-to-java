@@ -9,7 +9,7 @@ public class TreeStory {
             Enter your amazing code here!
         */
 
-        Sting name = console.readLine("Enter your name:  ");
+        String name = console.readLine("Enter your name:  ");
         String adjective = console.readLine("Enter and adjective:  ");
 
         //Printing two variable on the console
