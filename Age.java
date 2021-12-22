@@ -11,14 +11,14 @@ public class Age {
              console.printf("You must be at least 13 years of age to use this program");
              System.exit(0);
          }
+         String getNumberOfPeopleString = console.readLine("Enter number of people in your group:  ");
+         int numberOfPeople = Integer.parseInt(getNumberOfPeopleString);
 
-        //  int numberOfPeople = 3;
-
-        //  if(numberOfPeople < 4) {
-        //      console.printf("Your table is ready.");
-        //      //exist the system after you run this code
-        //      System.exit(0);
-        //  }
+         if(numberOfPeople < 4) {
+             console.printf("Your table is ready.");
+             //exist the system after you run this code
+             System.exit(0);
+         }
 
     }
     
