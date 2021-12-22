@@ -30,7 +30,7 @@ public class Age {
         String firstExample = "hello";
         String secondExample = "hello";
         if (firstExample.equals(secondExample)) {
-            console.printf("first is equal to second");
+            console.printf("first is equal to second\n\n\n");
         }
         String thirdExample = "HELLO";
 
