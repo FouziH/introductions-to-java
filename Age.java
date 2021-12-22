@@ -17,9 +17,20 @@ public class Age {
          if(numberOfPeople < 4) {
              console.printf("Your table is ready.");
              //exist the system after you run this code
+            //  System.exit(0);
+         }
+
+
+         String noun = console.readLine("Enter a noun:  ");
+         if(noun.equals("dork")) {
+             console.printf("That language is not allowed. Exiting. \n\n");
              System.exit(0);
          }
 
+
     }
+
+    
+
     
 }
