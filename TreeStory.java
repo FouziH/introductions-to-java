@@ -12,6 +12,10 @@ public class TreeStory {
         String name = console.readLine("Enter your name:  ");
         String adjective = console.readLine("Enter and adjective:  ");
 
+        //Printing two variable on the console
+
+        console.printf("%s is very %s", name, adjective);
+
         
     }
     
