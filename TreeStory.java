@@ -14,7 +14,7 @@ public class TreeStory {
 
         //Printing two variable on the console
 
-        console.printf("%s is very %s", name, adjective);
+        console.printf("%s is very %s\n", name, adjective);
 
         
     }
