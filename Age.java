@@ -22,12 +22,12 @@ public class Age {
         }
 
         String noun;
-        
+
         do {
             noun = console.readLine("Enter a noun:  ");
             if (noun.equalsIgnoreCase("dork") ||
                     noun.equalsIgnoreCase("jerk")) {
-                console.printf("That language is not allowed. Exiting. \n\n");
+                console.printf("That language is not allowed. Try again. \n\n");
             }
 
         } while (noun.equalsIgnoreCase("dork") || noun.equalsIgnoreCase("jerk"));
