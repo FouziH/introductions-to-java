@@ -21,12 +21,16 @@ public class Age {
             // System.exit(0);
         }
 
-        String noun = console.readLine("Enter a noun:  ");
-        if (noun.equalsIgnoreCase("dork") || 
-            noun.equalsIgnoreCase("jerk")) {
-            console.printf("That language is not allowed. Exiting. \n\n");
-            System.exit(0);
-        }
+        String noun;
+        
+        do {
+            noun = console.readLine("Enter a noun:  ");
+            if (noun.equalsIgnoreCase("dork") ||
+                    noun.equalsIgnoreCase("jerk")) {
+                console.printf("That language is not allowed. Exiting. \n\n");
+            }
+
+        } while (noun.equalsIgnoreCase("dork") || noun.equalsIgnoreCase("jerk"));
 
         String firstExample = "hello";
         String secondExample = "hello";
@@ -35,7 +39,7 @@ public class Age {
         }
         String thirdExample = "HELLO";
 
-        if(firstExample.equalsIgnoreCase(thirdExample)) {
+        if (firstExample.equalsIgnoreCase(thirdExample)) {
             console.printf("first and third are the same ignoring case");
         }
 
