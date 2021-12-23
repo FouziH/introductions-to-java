@@ -16,7 +16,7 @@ public class Age {
         int numberOfPeople = Integer.parseInt(getNumberOfPeopleString);
 
         if (numberOfPeople < 4) {
-            console.printf("Your table is ready.");
+            console.printf("Your table is ready.\n\n");
             // exist the system after you run this code
             // System.exit(0);
         }
