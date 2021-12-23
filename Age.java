@@ -22,15 +22,18 @@ public class Age {
         }
 
         String noun;
+        boolean isInvalidWord;
+
 
         do {
             noun = console.readLine("Enter a noun:  ");
-            if (noun.equalsIgnoreCase("dork") ||
-                    noun.equalsIgnoreCase("jerk")) {
+            isInvalidWord = noun.equalsIgnoreCase("dork") ||
+                    noun.equalsIgnoreCase("jerk");
+            if (isInvalidWord) {
                 console.printf("That language is not allowed. Try again. \n\n");
             }
 
-        } while (noun.equalsIgnoreCase("dork") || noun.equalsIgnoreCase("jerk"));
+        } while (isInvalidWord);
 
         String firstExample = "hello";
         String secondExample = "hello";
